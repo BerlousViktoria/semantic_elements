@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../photo/backround.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.top-text {
+    width: 100%;
+    text-align: center; 
+    margin: 10px auto;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.top-text a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.top-text a:visited {
+    color: antiquewhite;
+}
+
+.top-text a:hover {
+    color: rgb(247, 217, 181);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.top-text-2 {
+    margin: 14px;
+}
+
+.top-text-2 a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.top-text-2 a:visited {
+    color: antiquewhite;
+}
+
+.top-text-2 a:hover {
+    color: rgb(247, 217, 181);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+
+.hello-text {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.hello-text-2 {
+    text-align: center; 
+    color: antiquewhite; 
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.table-container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 4px double antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+}
+
+.title-table{
+    text-align: center; 
+}
+
+.table-text {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-text td {
+    border: 1px solid antiquewhite;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.table-text-2 {
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    bottom: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.table-text-2 tr, td {
+    border: none;
+}
+
+.table-text-2 td {
+    border: none;
+    padding: 5px 20px;
+    vertical-align: top;
+}
+
+.info-photo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;                 
+    margin: 50px;
+    color: antiquewhite;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list {
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 4px antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: antiquewhite;
+}
+
+.web-image {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}

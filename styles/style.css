@@ -1,0 +1,117 @@
+/* Скидання стандартних налаштувань браузера*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стандартні заголовки */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(57, 57, 57);
+}
+
+.photo {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    height: auto;
+    padding: 15px;
+    border-radius: 100%;
+    filter: grayscale(0.8);
+}
+/* Кінець стандарнтих заголовків */
+
+
+/* Вміст лівої-правої частин сторінки */
+.page-container {
+    display: block;
+    max-width: 700px;
+    margin: 20px auto;
+    border: 5px solid gray;
+    background-color: rgb(51, 51, 51);
+    font-size: 0;
+    
+}
+
+/* Ліва частина сторінки */
+.left-side {
+    width: 30%;
+    background-color: rgb(51, 51, 51);
+    display: inline-block;
+    color: antiquewhite;    
+    vertical-align: top;
+    font-size: 14px;
+}
+
+/* Навігація на лівій сторіні */
+
+.site-nav-item a {
+    border: 2px solid rgb(83, 82, 82);
+    border-radius: 3px;
+    background-color: rgb(83, 82, 82);
+    color: bisque;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 23%;
+}
+
+.site-nav-item a:hover {
+    color: aliceblue;
+}
+
+.left-side li {
+    padding: 3px 10px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.left-side h3 {
+    padding: 10px;
+    border-bottom: 1px solid bisque;
+}
+
+/* Кінець лівої частини сторінки */
+
+
+/* Права сторона */
+.right-side {
+    padding: 20px;
+    vertical-align: top;
+    width: 70%;
+    background-color: rgb(200, 200, 200);
+    display: inline-block;
+    font-size: 16px;
+}
+
+.right-side h3 {
+    padding: 20px 0 20px 0;
+    text-align: left;
+    border-bottom: 2px solid rgb(112, 112, 112);
+}
+
+.right-side h1 {
+    padding: 0 0 15px 0;
+    border-bottom: 2px solid rgb(112, 112, 112);
+}
+
+.right-side ul,
+.right-side li {
+    padding: 5px 0 0 0;
+    list-style: none;
+}
+
+.date {
+    color: rgb(121, 119, 119);
+    font-size: small;
+}
+/* Кінець правої сторони */
+
+
+
+
+
+
+
+
+
